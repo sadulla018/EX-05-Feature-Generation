@@ -20,11 +20,7 @@ Save the data to the file
 
 
 # CODE
-```
-Program Developed By : Vineesh M
-Register Number : 212221230122
-```
-## Data.csv
+## Data.csv :
 ```
 import pandas as pd
 df=pd.read_csv("data.csv")
@@ -82,7 +78,7 @@ sc3=RobustScaler()
 df5=pd.DataFrame(sc3.fit_transform(df1),columns=['id', 'bin_1', 'bin_2', 'City', 'Ord_1','Ord_2','Target'])
 df5
 ```
-## Encoding.csv
+## Encoding.csv :
 ```
 import pandas as pd
 df=pd.read_csv("Encoding Data.csv")
@@ -132,7 +128,7 @@ sc3=RobustScaler()
 df4=pd.DataFrame(sc3.fit_transform(df1),columns=['id', 'bin_1', 'bin_2', 'nom_0','ord_2'])
 df4
 ```
-## Titanic.csv
+## Titanic.csv :
 ```
 import pandas as pd
 df=pd.read_csv("titanic_dataset.csv")
@@ -189,61 +185,65 @@ df5=pd.DataFrame(sc3.fit_transform(df1),columns=['Passenger','Survived','Pclass'
 df5
 ```
 
-# OUTPUT
-# Data.csv:
-## Initial Dataset:
-![output](ss1.png)
-## Binary Encoding:
-![output](ss2.png)
-![output](ss3.png)
-## Encoded Dataset:
-![output](ss4.png)
-## Data Scaling using MinMaxScaler:
-![output](ss5.png)
-## Data Scaling using StandardScaler:
-![output](ss6.png)
-## Data Scaling using MaxAbsScaler:
-![output](ss7.png)
-## Data Scaling using RobustScaler:
-![output](ss8.png)
-# Encoding.csv :
-## Initial Dataset:
-![output](ss9.png)
-## Binary Encoding:
-![output](ss10.png)
-![output](ss11.png)
-## Encoded Dataset:
-![output](ss12.png)
-## Data Scaling using MinMaxScaler:
-![output](ss13.png)
-## Data Scaling using StandardScaler:
-![output](ss14.png)
-## Data Scaling using MaxAbsScaler:
-![output](ss15.png)
-## Data Scaling using RobustScaler:
-![output](ss16.png)
-# Titanic.csv :
-## Initial Dataset:
-![output](ss17.png)
-## Data cleaning before encoding:
-![output](ss18.png)
-![output](ss19.png)
-![output](ss20.png)
-## Cleaned Dataset:
-![output](ss21.png)
-## Binary Encoding:
-![output](ss22.png)
-## Encoded Dataset:
-![output](ss23.png)
-## Data Scaling using MinMaxScaler:
-![output](ss24.png)
-## Data Scaling using StandardScaler:
-![output](ss25.png)
-## Data Scaling using MaxAbsScaler:
-![output](ss26.png)
-## Data Scaling using RobustScaler:
-![output](ss27.png)
+# OUPUT
+## Data.csv :
 
-# RESULT:
+![image](https://user-images.githubusercontent.com/66360846/195596531-b68f0526-f0ec-4259-9a67-0f0bb8b02847.png)
 
+![image](https://user-images.githubusercontent.com/66360846/195596571-6a58411d-73bd-456e-b706-81cac98f48d9.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195596597-ba3d9fd3-796a-4c5c-932f-6257a18fe190.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195596696-b2223a0e-2e04-49ce-a4c0-331f8f7aee33.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195596731-d044ee9d-0951-47f4-96aa-a220fd7bee52.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195596763-70246f26-3b05-471b-9be9-47e7f2c2c61b.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195596792-20bb802b-255a-4a6f-9009-9c14219fd411.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195596834-9cb3d404-c62b-4cbc-a01f-f8316298c73b.png)
+
+## Encoding.csv :
+
+![image](https://user-images.githubusercontent.com/66360846/195596934-3052bedc-0664-4b01-943a-77a2274efe41.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195596913-8e17a687-de64-4911-b13c-126f1c20e40b.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195596998-f1c64537-f01b-46d6-bd16-f66b3e720e19.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195597022-9435ebd0-a3f6-4758-9065-dc3494d91397.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195597091-c99b4dd7-ed51-4489-a797-a3a6a13cb3d3.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195597137-44a47720-6356-41b4-a4d5-8c2a924da4a6.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195597215-f3a627f7-a110-441c-8370-4478da3db87c.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195597324-6a23a40b-ff9a-45e6-aeea-628d9e8f0a47.png)
+
+## Titanic.csv :
+![image](https://user-images.githubusercontent.com/66360846/195597358-07e6b926-39d1-44b2-81d6-087777fbc203.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195597403-862ae4a8-5805-4a32-835f-0fa608f1ab9c.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195597435-7c927495-ce46-46b3-855f-6efac1a1cb4d.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195597455-00c4c28e-aa71-4e34-8502-749129782286.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195597487-15f3498b-3c98-47e8-9de4-55b2e2ef8880.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195597511-65816246-3c7b-4b05-8275-ba038894ede4.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195597536-01f441bd-df8f-4921-9c69-a7545bbb4678.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195597567-e1c836fa-da38-497d-9064-53b7d4f126bd.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195597588-db649710-17be-425e-9321-35cf4a9ea81b.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195597611-36160d7e-b4bd-4893-a7a8-d26bf4ede2fa.png)
+
+![image](https://user-images.githubusercontent.com/66360846/195598122-1041ab68-216d-45a6-adc2-373ea6a1da60.png)
+
+## RESULT:
 Feature Generation process and Feature Scaling process is applied to the given data frames sucessfully.
